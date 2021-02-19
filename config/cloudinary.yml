@@ -1,0 +1,20 @@
+---
+# API keys not encoded for the sake of the coding challenge
+development:
+  cloud_name: dpbcay64m
+  api_key: '239691229326449'
+  api_secret: U-_bmVK4zP9W8owBknolRaNa2kQ
+  enhance_image_tag: true
+  static_file_support: false
+production:
+  cloud_name: dpbcay64m
+  api_key: '239691229326449'
+  api_secret: U-_bmVK4zP9W8owBknolRaNa2kQ
+  enhance_image_tag: true
+  static_file_support: true
+test:
+  cloud_name: dpbcay64m
+  api_key: '239691229326449'
+  api_secret: U-_bmVK4zP9W8owBknolRaNa2kQ
+  enhance_image_tag: true
+  static_file_support: false

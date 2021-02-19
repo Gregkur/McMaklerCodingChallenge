@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>McMakler</title>
+
+    <%= csrf_meta_tags %>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <%# Importing Raleway font%>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;600&display=swap');
+    </style>
+
+    <%# Importing Font Awesome%>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+
+    <%# Rendering Index.jsx with frontend routes from React Router %>
+
+    <%= javascript_pack_tag 'Index' %>
+
+</head>
+
+<body>
+    <%= yield %>
+</body>
+
+</html>
